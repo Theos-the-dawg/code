@@ -20,7 +20,7 @@ let human = {"name":"Hope",
             "age":20,
             "course":{"IT":"SE"},
             "Race":"African-Black",
-            "special_dates":[1,15,25]
+            "special_dates":[1,15,25] 
 };
  
 
