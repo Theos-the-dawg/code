@@ -1,7 +1,7 @@
 print("hello world")
 
 # dynamically typed language
-age =17
+age = 17
 print(age)
 
 def add(a, b):
