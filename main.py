@@ -1,10 +1,8 @@
-print("hello world")
+num_1 = 5
+num_2 = 10
 
-# dynamically typed language
-age = 17
-print(age)
+if num_1>num_2:
 
-def add(a, b):
-    return a + b
-
-print(add(5,10))
+    print(num_1)
+else:
+    print(num_2)

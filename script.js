@@ -14,6 +14,7 @@ let number = 15;
 // Dec
 
 let deci = 0.4;
+
 // Dict
 
 let human = {"name":"Hope",
@@ -23,6 +24,7 @@ let human = {"name":"Hope",
             "special_dates":[1,15,25] 
 };
  
+// boolean True/False
 
 //local variable
 let age = 27;
@@ -34,9 +36,34 @@ var date = "";
 const year = "2026"
 
 
-//conditional operaters
-//if
-//True/False
-console.log(name_1 + name_2);
 
+//console.log(name_1 +" "+ name_2);
+
+//conditional operaters
+
+//if else 
+
+//True/False
+//let num_1 = 5;
+// let num_2 = 10;
+
+// if (num_1>num_2){
+//     console.log(num_1)
+// }
+// else{
+//     console.log(num_2)
+// }
+//alert("")
+
+let Username = "Motheo";
+let Password = "22";
+
+
+if(Username=="Motheo" && Password==22){
+    console.log(true);
+    return true;
+}else{
+    console.log(false);
+    return false;
+}
 
