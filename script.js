@@ -16,13 +16,29 @@ let number = 15;
 let deci = 0.4;
 
 // Dict
+let master = {
 
-let human = {"name":"Hope",
+    username:"",
+    password:""
+};
+
+let PERSON = {"name":"Hope",
             "age":20,
             "course":{"IT":"SE"},
             "Race":"African-Black",
             "special_dates":[1,15,25] 
 };
+let PERSON_1 = {
+            "age":20,
+            "name":"Hope",
+            "course":{"IT":"SE"},
+            "Race":"African-Black",
+            "special_dates":[1,15,25] 
+};
+
+let people = [PERSON[""],PERSON_1.age]
+
+let name_value = PERSON.name
  
 // boolean True/False
 
@@ -55,15 +71,71 @@ const year = "2026"
 // }
 //alert("")
 
-let Username = "Motheo";
-let Password = "22";
-
-
-if(Username=="Motheo" && Password==22){
-    console.log(true);
-    return true;
-}else{
-    console.log(false);
-    return false;
+//for loop 
+for(i=0;i>5;i++){
+    console.log(i++)
 }
+
+
+
+
+let add = function(a=27,b=35){
+   return a+b;
+}
+
+console.log(add());
+
+let even_or_odd = function(){
+let divided_value = (add()/2);
+ console.log(divided_value);
+ console.log(true);
+
+let odd_value = (add()/3);
+console.log(odd_value);
+console.log(false);
+
+};
+even_or_odd();
+//console.log(add()/2);
+
+
+
+let human={
+name:"motheo",
+age:26
+};
+
+
+//console.log(human.name)
+//console.log(human.name +" " + human.age)
+
+//console.log(human["name","age"])
+//console.log(human["name"] + " " + human["age"])
+
+
+
+
+
+
+
+
+
+// let names = ["master","hope","motheo","Gerald"];
+
+// let Username = "Motheo";
+// let Password = "22";
+
+
+// if(Username=="Motheo" && Password==22)
+// {
+//     console.log(true);
+//     return true;
+// }
+// else{
+
+//     console.log(false);
+//     return false;
+// };
+
+
 
