@@ -71,7 +71,7 @@ let student ={
   course:"Software Engineering",
   student_number:"2026203"
 };
-console.log(student);
+console.log("");
 console.log(student.course);
 
 let student_0 ={
