@@ -3,7 +3,7 @@
 // //Data Types
 
 // //Chars
-// let symbol = "@@#$%^&";
+ let age = 45;
 
 // // Strings 
 // let name_1 = "Hope";
@@ -22,13 +22,14 @@
 //     password:""
 // };
 
-// let PERSON = {"name":"Hope",
-//             "age":20,
-//             "course":{"IT":"SE"},
-//             "Race":"African-Black",
-//             "special_dates":[1,15,25] 
-// };
+let PERSON = {
+  name:"Hope",
+  age:20,
+  course:"Software Engineering",
+  student_number:"2026202"
 
+}
+console.log(PERSON.name="Motheo");
 // let PERSON2 = {
 //             "age":21,
 //             "name":"Hope",
@@ -62,25 +63,25 @@
 // }};
 
 
-let username= "mo";
-console.log(username);
+// let username= "mo";
+// console.log(username); 
 
-let student ={
-  name:"Motheo",
-  age:20,
-  course:"Software Engineering",
-  student_number:"2026203"
-};
-console.log(student);
-console.log(student.course);
+// let student ={
+//   name:"Motheo",
+//   age:20,
+//   course:"Software Engineering",
+//   student_number:"2026203"
+// };
+// console.log(student);
+// console.log(student.course);
 
-let student_0 ={
-  "name":"Hope",
-  "age":20,
-  "course":"Software Engineering",
-  "student_number":"2026202"
-};
-console.log(student_0.course);
+// let student_0 ={
+//   "name":"Hope",
+//   "age":20,
+//   "course":"Software Engineering",
+//   "student_number":"2026202"
+// };
+// console.log(student_0.course);
 
 
 // let student_1 ={

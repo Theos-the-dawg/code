@@ -1,0 +1,12 @@
+p{
+    color:green;
+    text-align: center;
+}
+#datetime_value{
+    background-color: aqua;
+    padding: 10px;
+    color: red;
+}
+#page{
+    color: yellow;
+}

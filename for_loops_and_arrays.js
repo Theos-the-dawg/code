@@ -3,6 +3,8 @@
 // for(i=0;i<5; i++){
 //     console.log(i);
 // }
+
+
 //initializing of arrays
     let names = ["Mohammed","Master","Gerald","Motheo"];
     let passwords = [1234, 5678, 91011, 1213];
